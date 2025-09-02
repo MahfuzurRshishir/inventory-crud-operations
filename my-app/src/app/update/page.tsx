@@ -7,6 +7,7 @@ const UpdateData = () => {
     const router = useRouter();
     const searchParams = useSearchParams();
     const id = searchParams.get('id'); // expects /update?id=3
+    
 
     const [name, setName] = useState('');
     const [quantity, setQuantity] = useState('');

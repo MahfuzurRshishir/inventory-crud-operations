@@ -46,7 +46,7 @@ const ShowData = () => {
         const form = e.target;
         let quantity = form.quantity.value;
         const action = e.nativeEvent.submitter.name; // Get the name of the button clicked
-        const id = e.nativeEvent.submitter.value; // Get the id of the item
+        const id = e.nativeEvent.submitter.value;
 
         if (action === 'Reduce') {
             quantity = -(Number(quantity)); // Ensure quantity is negative for reduction
